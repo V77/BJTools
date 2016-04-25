@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>BJ Index Trainer</title>
+
+		<link href="css/style_it.css" type="text/css" rel="stylesheet">
+		<link rel="icon" type="image/png" href="favicon.png" />
+		<!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><![endif]-->
+
+		<!--[if lte IE 7]>
+        <link rel="stylesheet" href="css/style_ie.css" />
+        <![endif]-->
+
+	</head>
+
+	<body>
+	<div id="mainBlock">
+	<h1>BlackJack Index Trainer</h1>
+	<img src="img/bj.png" alt="blackjack cards" />
+	<br /><br />
+	<span id="cards"></span>
+	<input type="text" id="answer" maxlength="3" size="2">
+	<img src="img/question.png" alt="correction" id="correction" /><br /><br />
+	</div>
+
+	<div id="resultsBlock">
+	<button type="button" id="clearResults">Clear Results</button>
+	<h1>Results</h1>
+	<table id="results">
+	</table>
+	</div>
+
+	<div id="indexGrid">
+	<button type="button" id="start">Start !</button>
+	<button type="button" id="hideIndexes">Hide/Show Indexes</button>
+	<button type="button" id="ill18">Illustrious 18</button>
+	<button type="button" id="clearAll">Clear All</button>
+	<h1>Index Grid</h1>
+	<p>Insurance : TC +3</p>
+	<table id="grid" align="center"></table>
+	</div>
+
+	<script src="js/BJIndexTrainer.js"></script>
+	</body>
+
+</html>

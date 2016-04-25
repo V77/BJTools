@@ -1,0 +1,54 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>BJ TC Trainer</title>
+
+		<link href="css/style_tct.css" type="text/css" rel="stylesheet" />
+		<link rel="icon" type="image/png" href="favicon.png" />
+		<!--[if IE]><link rel="shortcut icon" type="image/x-icon" href="favicon.ico" /><![endif]-->
+
+		<!--[if lte IE 7]>
+        <link rel="stylesheet" href="css/style_ie.css" />
+        <![endif]-->
+
+	</head>
+
+	<body>
+	<div id="mainBlock">
+	<h1>BlackJack True Count Trainer</h1>
+	<img src="img/bj.png" alt="blackjack cards" />
+	<br /><br />
+	<span id="calculation"></span>
+	<input type="text" id="answer" maxlength="3" size="2">
+	<img src="img/question.png" alt="correction" id="correction" />
+	<p>Method : Flooring<p>
+	<p>
+	Decks : <input type="text" id="decks" maxlength="3" size="2"><br />
+	RC Min : <input type="text" id="rcMin" maxlength="3" size="2"><br />
+	RC Max : <input type="text" id="rcMax" maxlength="3" size="2"><br />
+	Deck Step : <input type="text" id="deckStep" maxlength="3" size="2"><br />
+	Decks Undealt : <input type="text" id="decksUndealt" maxlength="3" size="2"><br />
+	<button type="button" id="start">Start !</button>
+	</p>
+	</div>
+
+	<div id="resultsBlock">
+	<button type="button" id="clearResults">Clear Results</button>
+	<h1>Results</h1>
+	<table id="results">
+	</table>
+	</div>
+
+	<div id="stagesBlock">
+	<button type="button" id="hideStages">Hide/Show TC Stages</button>
+	<h1>TC Stages</h1>
+	<span id="limits"></span>
+	<div id="stages">
+	</div>
+	</div>
+
+	<script src="js/BJTCTrainer.js"></script>
+	</body>
+
+</html>

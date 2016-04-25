@@ -1,0 +1,65 @@
+body
+{
+	color : limegreen;
+	background-color : black;
+	text-shadow : 0 0 5px;
+	font-size : 1.1em;
+	text-align : center;
+}
+
+img
+{
+	vertical-align : middle;
+	text-align : center;
+}
+
+#correction
+{
+	margin-left : 10px;
+}
+
+#mainBlock, #resultsBlock, #stagesBlock
+{
+	margin : 5px;
+	vertical-align : top;
+	display:inline-block;
+	padding : 10px;
+	border-style : dashed;
+	border-width : 3px;
+	border-color : #424242;
+	border-radius : 10px;
+	text-align : center;
+}
+
+#mainBlock
+{
+	width : 35%;
+}
+
+#resultsBlock
+{
+	width:20%;
+}
+
+#stagesBlock
+{
+	width:25%;
+}
+
+#results
+{
+	border-collapse: collapse;
+	margin:auto;
+}
+
+#results td
+{
+	border : 2px solid #424242;
+	padding : 5px;
+}
+
+input
+{
+	font-weight : bold;
+	text-align : center;
+}
